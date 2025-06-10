@@ -4,7 +4,7 @@ public class Energy {
 
     private final LocalDate date;
     private final double energy;
-    private final double energySaved;
+    private double energySaved;
 
     public Energy(LocalDate currDate, double inputEnergy, User user){
         date = currDate;
